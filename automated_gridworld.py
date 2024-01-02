@@ -157,5 +157,3 @@ class AutoGridWorld:
     for key, item in self.actions.items():
       policy[key] = random.choice(item)
     return policy 
-
-
