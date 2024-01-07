@@ -28,8 +28,11 @@ x is the starting position
 
 A random grid world is generated every time the code is executed.
 
-**decaying_epsilon_greedy.py**:
-In this script, we present an implementation of the decaying epsilon-greedy algorithm for reinforcement learning. The decaying epsilon-greedy strategy strikes a balance between exploration and exploitation, crucial for training reinforcement learning agents. Executing several episodes of reinforcement learning in the automatically generated grid world created by automated_gridworld.py, this script showcases the algorithm's effectiveness. As a result, it prints the optimum policy, shedding light on the intelligent decision-making process developed by the agent over the course of training.
+**q_learning_decaying_epsilon_greedy.py**:
+In this script, I present an implementation of the decaying epsilon-greedy algorithm for reinforcement learning. The decaying epsilon-greedy strategy strikes a balance between exploration and exploitation, crucial for training reinforcement learning agents. Executing several episodes of reinforcement learning in the automatically generated grid world created by automated_gridworld.py, this script showcases the algorithm's effectiveness. As a result, it prints the optimum policy, shedding light on the intelligent decision-making process developed by the agent over the course of training.
+
+**machine_learning_rbf_kernal.py**:
+In this script, I present an implementation of the machine learning approximation of the value function. I use RBFSampler for feature generation in this implementation. While action space exploration is done by soft epsilon-greedy strategy. Executing several episodes of reinforcement learning in the automatically generated grid world created by automated_gridworld.py, this script showcases the algorithm's effectiveness. As a result, it prints the optimum policy, shedding light on the intelligent decision-making process developed by the agent over the course of training.
 
 Best policy identified:
 
